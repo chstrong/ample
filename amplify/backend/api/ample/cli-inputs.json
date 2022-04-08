@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "ample",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/chstrong/Development/ample/amplify/backend/api/ample/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

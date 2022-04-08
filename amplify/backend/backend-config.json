@@ -1,6 +1,6 @@
 {
   "api": {
-    "reactamplified": {
+    "ample": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -8,21 +8,16 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 30,
-              "description": "api key description"
+              "apiKeyExpirationDays": 7
             }
           },
-          "additionalAuthenticationProviders": [
-            {
-              "authenticationType": "AWS_IAM"
-            }
-          ]
+          "additionalAuthenticationProviders": []
         }
       }
     }
   },
   "auth": {
-    "reactamplified83cf3e7a": {
+    "ampled380fc8c": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -45,13 +40,6 @@
           "EMAIL"
         ]
       }
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
     }
   }
 }
